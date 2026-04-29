@@ -1,0 +1,60 @@
+/* Fondo con degradado */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+}
+
+/* Contenedor */
+.container {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* Título (por si luego agregas uno) */
+h1 {
+    text-align: center;
+    color: #764ba2;
+    margin-bottom: 20px;
+}
+
+/* Tabla */
+table {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Encabezado */
+thead {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: white;
+    font-weight: bold;
+}
+
+/* Filas */
+tbody tr {
+    transition: all 0.3s ease;
+}
+
+/* Hover bonito */
+tbody tr:hover {
+    background-color: #e0e7ff;
+    transform: scale(1.01);
+}
+
+/* Celdas */
+td, th {
+    padding: 12px;
+}
+
+/* Bordes suaves */
+table, th, td {
+    border-color: #dee2e6 !important;
+}
+
+/* Sombra más marcada */
+.shadow-lg {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2) !important;
+}
